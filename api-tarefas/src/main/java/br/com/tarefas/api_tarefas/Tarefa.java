@@ -10,7 +10,7 @@ import java.time.LocalDate;
 public class Tarefa {
 
     @Id // Define que o atributo 'id' é a chave primária
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // O banco de dados irá gerar o valor do ID automaticamente
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nome;
